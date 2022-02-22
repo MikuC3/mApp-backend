@@ -3,8 +3,8 @@ const users = require("../../models/mongo/users.js");
 exports.insert = async (req, res, next) => {
     let data = new users({
         email: "Worachit8112@gmail.com",
-        name: "วรชิต",
-        lastname: "โต๊ะโต"
+        name: "worachit",
+        lastname: "Toto"
     });
 
     data.save();
